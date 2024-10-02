@@ -1,0 +1,79 @@
+@import "https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+}
+
+.game-display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-card {
+    background-color: rgb(6, 152, 99);
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.myname,
+.scoreboard {
+  text-transform: capitalize;
+  color:yellow;
+  font-size: 0.91rem;
+}
+
+.computer-selection,
+.player-input {
+  border: 2px dotted black;
+  --size: 7rem;
+  width: var(--size);
+  height: var(--size);
+  margin: 0.6rem auto;
+  font-size: 5.4rem;
+}
+
+.game-result-board {
+  background: grey;
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  padding: 1.52rem;
+  text-align: center;
+}
+
+.input-choice-option {
+  display: flex;
+  justify-content: center;
+  gap: 2.2rem;
+  margin: 1rem;
+}
+
+.user-input-choice {
+  width: 30%;
+  border-radius: 10px white;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.user-emoji {
+  font-size: 3rem;
+}
+.user-input-text {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
